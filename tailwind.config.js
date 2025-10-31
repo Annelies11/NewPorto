@@ -9,11 +9,11 @@ export default {
     "./public/assets/**/*.{js,ts,jsx,tsx}",
   ],
   safelist: [
-    "hover:bg-color-1",
-    "hover:bg-color-2",
-    "hover:bg-color-3",
-    "px-15",
-    "lg:px-15",
+    "pt-[4.75rem]",
+    "lg:pt-[5.25rem]",
+    "hover:bg-n-8",
+    "hover:bg-n-6",
+    "hover:text-white",
   ],
   theme: {
     extend: {
