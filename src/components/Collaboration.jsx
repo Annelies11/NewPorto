@@ -7,7 +7,7 @@ import { LeftCurve, RightCurve } from "./design/Collaboration";
 const Collaboration = () => {
   return (
     <Section crosses>
-      <div className="container lg:flex px-5 sm:px-8 md:px-10 lg:px-12">
+      <div className="container mx-auto lg:flex px-5 sm:px-8 md:px-10 lg:px-12">
         <div className="max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">
             Over three years of teaching robotics and technology

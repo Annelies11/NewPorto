@@ -8,7 +8,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
     "./public/assets/**/*.{js,ts,jsx,tsx}",
   ],
-  safelist: ["hover:bg-color-1", "hover:bg-color-2", "hover:bg-color-3"],
+  safelist: [
+    "hover:bg-color-1",
+    "hover:bg-color-2",
+    "hover:bg-color-3",
+    "px-15",
+    "lg:px-15",
+  ],
   theme: {
     extend: {
       colors: {
