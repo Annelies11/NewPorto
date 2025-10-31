@@ -1,3 +1,9 @@
+import card1 from "../assets/benefits/card-1.svg";
+import card2 from "../assets/benefits/card-2.svg";
+import card3 from "../assets/benefits/card-3.svg";
+import card4 from "../assets/benefits/card-4.svg";
+import card5 from "../assets/benefits/card-5.svg";
+import card6 from "../assets/benefits/card-6.svg";
 import {
   tailwind_color,
   vite_color,
@@ -270,7 +276,7 @@ export const benefits = [
     id: "0",
     title: "Apple Clone Website",
     text: "Demonstrates a seamless integration of Three.js for WebGL-rendered 3D visuals, GSAP for performant timeline-based animations, and React for a component-driven UI.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    backgroundUrl: card1,
     iconUrl: benefitIcon1,
     imageUrl: new_ip,
     path: "https://apple-clone-aris.netlify.app/",
@@ -279,7 +285,7 @@ export const benefits = [
     id: "1",
     title: "Smoke Absorber",
     text: "Using fuzzy control to make coconut shell charcoal production cleaner, smarter, and more efficient for the environment.",
-    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    backgroundUrl: card2,
     iconUrl: benefitIcon2,
     imageUrl: precip,
     light: true,
@@ -289,7 +295,7 @@ export const benefits = [
     id: "2",
     title: "Movie Recomender",
     text: "A React-powered movie recommender that personalizes film suggestions based on your tastes, watching history, and ratings—fast, interactive, and easy to use.",
-    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    backgroundUrl: card3,
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
     path: "https://react-popcorn-pied.vercel.app/",
@@ -298,7 +304,7 @@ export const benefits = [
     id: "3",
     title: "Hotel Management",
     text: "The Wild Oasis is a sleek hotel management platform built with React Material for smooth, intuitive guest and booking control.",
-    backgroundUrl: "./src/assets/benefits/card-4.svg",
+    backgroundUrl: card4,
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
     light: true,
@@ -308,7 +314,7 @@ export const benefits = [
     id: "4",
     title: "Small Business Controller",
     text: "An IoT dashboard for small home businesses like fish ponds and local stores, enabling smart monitoring and easy automation.",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
+    backgroundUrl: card5,
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
     path: "https://under-maintenance-gules.vercel.app/",
@@ -317,7 +323,7 @@ export const benefits = [
     id: "5",
     title: "Smart Agriculture",
     text: "A smart IoT system for modern agriculture and greenhouses, providing real-time data, climate control, and efficient resource management.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    backgroundUrl: card6,
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     path: "https://under-maintenance-gules.vercel.app/",
