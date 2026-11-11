@@ -27,7 +27,7 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <Button>See my CV</Button>
+          // <Button>See my CV</Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
